@@ -1,8 +1,18 @@
 {
     "name": "allinpay/yunshangtong",
-    "description": "通联支付云商通(2025-07-22)",
+    "description": "通联支付云商通PHP SDK - 提供支付、会员、查询等API接口",
+    "type": "library",
     "license": "proprietary",
+    "keywords": ["allinpay", "payment", "sdk", "yunshantong", "通联支付"],
+    "homepage": "https://github.com/your-username/KA-Demo-PHP",
+    "authors": [
+        {
+            "name": "CCoy",
+            "email": "work_rd@163.com"
+        }
+    ],
     "require": {
+        "php": ">=7.4",
         "sop/crypto-types": "^0.3.0",
         "phpseclib/phpseclib": "~3.0",
         "mdanter/ecc": "^0.5.2",
@@ -13,5 +23,12 @@
         "guzzlehttp/guzzle": "^7.0",
         "latzou/sm2": "^2.0",
         "fgrosse/phpasn1": "^2.5"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "Allinpay\\YunshangTong\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
