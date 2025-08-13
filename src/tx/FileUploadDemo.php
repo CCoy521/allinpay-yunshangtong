@@ -28,6 +28,7 @@ class FileUploadDemo extends TxDemo
         self::$demoConfig = new DemoConfig();
         self::$sm2 = new RtSm2('base64');
         echo self::upload(self::FILEPATH, '0');
+        echo "---------------------\n";
     }
 
     private static function upload($filePath, $fileType)

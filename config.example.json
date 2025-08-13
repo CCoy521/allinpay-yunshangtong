@@ -1,0 +1,10 @@
+{
+  "environment": "test",
+  "app": {
+    "appId": "your_app_id_here",
+    "spAppId": "your_sp_app_id_here",
+    "privateKey": "your_private_key_here",
+    "secretKey": "your_secret_key_here",
+    "notifyUrl": "http://your-domain.com/notify"
+  }
+}
