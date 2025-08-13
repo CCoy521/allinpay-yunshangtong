@@ -4,10 +4,10 @@
     "type": "library",
     "license": "MIT",
     "keywords": ["allinpay", "payment", "sdk", "yunshantong", "通联支付", "php"],
-    "homepage": "https://github.com/your-username/KA-Demo-PHP",
+    "homepage": "https://github.com/CCoy521/allinpay-yunshangtong",
     "support": {
-        "issues": "https://github.com/your-username/KA-Demo-PHP/issues",
-        "source": "https://github.com/your-username/KA-Demo-PHP"
+        "issues": "https://github.com/CCoy521/allinpay-yunshangtong/issues",
+        "source": "https://github.com/CCoy521/allinpay-yunshangtong"
     },
     "authors": [
         {
