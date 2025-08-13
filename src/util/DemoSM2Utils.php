@@ -1,6 +1,6 @@
 <?php
 
-namespace util;
+namespace Allinpay\YunshangTong\Util;
 
 include "../../vendor/autoload.php";
 

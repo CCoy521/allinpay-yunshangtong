@@ -1,12 +1,12 @@
 <?php
-namespace src;
+namespace Allinpay\YunshangTong;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use config\DemoConfig;
+use Allinpay\YunshangTong\Config\DemoConfig;
 use Exception;
-use member\MemberService;
-use payment\PaymentService;
+use Allinpay\YunshangTong\Member\MemberService;
+use Allinpay\YunshangTong\Payment\PaymentService;
 
 /**
  * 通联支付服务工厂类

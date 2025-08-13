@@ -1,6 +1,6 @@
 <?php
 
-namespace vo;
+namespace Allinpay\YunshangTong\Vo;
 
 class TxRequest
 {

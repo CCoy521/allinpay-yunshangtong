@@ -1,11 +1,11 @@
 <?php
-namespace util;
+namespace Allinpay\YunshangTong\Util;
 
 include '../config/DemoConfig.php';
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
-use config\DemoConfig;
+use Allinpay\YunshangTong\Config\DemoConfig;
 use FG\ASN1\ASNObject;
 use phpseclib3\Crypt\Random;
 use Rtgm\sm\RtSm4;

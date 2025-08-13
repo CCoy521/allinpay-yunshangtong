@@ -1,16 +1,16 @@
 <?php
-namespace payment;
+namespace Allinpay\YunshangTong\Payment;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
-use config\DemoConfig;
+use Allinpay\YunshangTong\Config\DemoConfig;
 use Exception;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
-use TxClient;
-use util\DemoSM4Utils;
-use util\TxUtils;
-use vo\BizParameter;
+use Allinpay\YunshangTong\Tx\TxClient;
+use Allinpay\YunshangTong\Util\DemoSM4Utils;
+use Allinpay\YunshangTong\Util\TxUtils;
+use Allinpay\YunshangTong\Vo\BizParameter;
 
 /**
  * 支付服务类

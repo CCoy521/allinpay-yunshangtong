@@ -1,7 +1,6 @@
 <?php
 
-namespace util;
-
+namespace Allinpay\YunshangTong\Util;
 
 use DateTime;
 

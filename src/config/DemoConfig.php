@@ -1,5 +1,5 @@
 <?php
-namespace config;
+namespace Allinpay\YunshangTong\Config;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 use FG\ASN1\ASNObject;

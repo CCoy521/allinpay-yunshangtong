@@ -2,32 +2,56 @@
     "name": "allinpay/yunshangtong",
     "description": "通联支付云商通PHP SDK - 提供支付、会员、查询等API接口",
     "type": "library",
-    "license": "proprietary",
-    "keywords": ["allinpay", "payment", "sdk", "yunshantong", "通联支付"],
+    "license": "MIT",
+    "keywords": ["allinpay", "payment", "sdk", "yunshantong", "通联支付", "php"],
     "homepage": "https://github.com/your-username/KA-Demo-PHP",
+    "support": {
+        "issues": "https://github.com/your-username/KA-Demo-PHP/issues",
+        "source": "https://github.com/your-username/KA-Demo-PHP"
+    },
     "authors": [
         {
             "name": "CCoy",
-            "email": "work_rd@163.com"
+            "email": "work_rd@163.com",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": ">=7.4",
+        "ext-openssl": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
         "sop/crypto-types": "^0.3.0",
         "phpseclib/phpseclib": "~3.0",
         "mdanter/ecc": "^0.5.2",
         "lpilp/guomi": "^1.0.2",
-        "ext-openssl": "*",
-        "ext-json": "*",
         "monolog/monolog": "^2.9",
         "guzzlehttp/guzzle": "^7.0",
         "latzou/sm2": "^2.0",
         "fgrosse/phpasn1": "^2.5"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0",
+        "phpstan/phpstan": "^1.0"
+    },
     "autoload": {
         "psr-4": {
             "Allinpay\\YunshangTong\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Allinpay\\YunshangTong\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse src --level=5"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "classmap-authoritative": true
     },
     "minimum-stability": "stable",
     "prefer-stable": true

@@ -1,16 +1,18 @@
 <?php
+namespace Allinpay\YunshangTong\Tx;
 
 include '../vo/TxRequest.php';
 include '../vo/TxResponse.php';
 
-use config\DemoConfig;
+use Allinpay\YunshangTong\Config\DemoConfig;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
-use util\DemoSM2Utils;
-use vo\BizParameter;
-use vo\TxRequest;
+use Allinpay\YunshangTong\Util\DemoSM2Utils;
+use Allinpay\YunshangTong\Vo\BizParameter;
+use Allinpay\YunshangTong\Vo\TxRequest;
+use Exception;
 
 /**
  * Test Client
