@@ -1,6 +1,6 @@
 <?php
 
-namespace AllinpayNew\Common;
+namespace AllinpayYunshangtong\Common;
 
 /**
  * 通联支付异常基类

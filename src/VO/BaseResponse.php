@@ -1,6 +1,6 @@
 <?php
 
-namespace AllinpayNew\VO;
+namespace AllinpayYunshangtong\VO;
 
 /**
  * 基础响应VO类

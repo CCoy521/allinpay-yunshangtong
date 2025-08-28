@@ -17,8 +17,8 @@ composer install
 <?php
 require_once 'vendor/autoload.php';
 
-use AllinpayNew\AllinpayClient;
-use AllinpayNew\Config\AppConfig;
+use AllinpayYunshangtong\AllinpayClient;
+use AllinpayYunshangtong\Config\AppConfig;
 
 // 创建客户端（测试环境）
 $client = new AllinpayClient(AppConfig::ENV_TEST);

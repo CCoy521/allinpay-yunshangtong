@@ -2,11 +2,11 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use AllinpayNew\AllinpayClient;
-use AllinpayNew\Config\AppConfig;
-use AllinpayNew\Config\LogConfig;
-use AllinpayNew\Utils\Logger;
-use AllinpayNew\Utils\Validator;
+use AllinpayYunshangtong\AllinpayClient;
+use AllinpayYunshangtong\Config\AppConfig;
+use AllinpayYunshangtong\Config\LogConfig;
+use AllinpayYunshangtong\Utils\Logger;
+use AllinpayYunshangtong\Utils\Validator;
 
 /**
  * 高级使用示例

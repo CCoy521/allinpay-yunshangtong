@@ -1,12 +1,12 @@
 <?php
 
-namespace AllinpayNew\Common;
+namespace AllinpayYunshangtong\Common;
 
-use AllinpayNew\Config\AppConfig;
-use AllinpayNew\Utils\HttpClient;
-use AllinpayNew\Utils\SignatureUtils;
-use AllinpayNew\VO\BaseRequest;
-use AllinpayNew\VO\BaseResponse;
+use AllinpayYunshangtong\Config\AppConfig;
+use AllinpayYunshangtong\Utils\HttpClient;
+use AllinpayYunshangtong\Utils\SignatureUtils;
+use AllinpayYunshangtong\VO\BaseRequest;
+use AllinpayYunshangtong\VO\BaseResponse;
 
 /**
  * 文件处理服务类
