@@ -1,12 +1,12 @@
 <?php
 
-namespace AllinpayNew\Merchant;
+namespace AllinpayYunshangtong\Merchant;
 
-use AllinpayNew\Config\AppConfig;
-use AllinpayNew\Utils\HttpClient;
-use AllinpayNew\Utils\SignatureUtils;
-use AllinpayNew\VO\BaseRequest;
-use AllinpayNew\VO\BaseResponse;
+use AllinpayYunshangtong\Config\AppConfig;
+use AllinpayYunshangtong\Utils\HttpClient;
+use AllinpayYunshangtong\Utils\SignatureUtils;
+use AllinpayYunshangtong\VO\BaseRequest;
+use AllinpayYunshangtong\VO\BaseResponse;
 
 /**
  * 商家服务类

@@ -1,13 +1,13 @@
 <?php
 
-namespace AllinpayNew;
+namespace AllinpayYunshangtong;
 
-use AllinpayNew\Config\AppConfig;
-use AllinpayNew\User\UserService;
-use AllinpayNew\Merchant\MerchantService;
-use AllinpayNew\Order\OrderService;
-use AllinpayNew\Common\QueryService;
-use AllinpayNew\Common\FileService;
+use AllinpayYunshangtong\Config\AppConfig;
+use AllinpayYunshangtong\User\UserService;
+use AllinpayYunshangtong\Merchant\MerchantService;
+use AllinpayYunshangtong\Order\OrderService;
+use AllinpayYunshangtong\Common\QueryService;
+use AllinpayYunshangtong\Common\FileService;
 
 /**
  * 通联支付客户端主类

@@ -1,10 +1,10 @@
 {
-    "name": "allinpay/new-sdk",
-    "description": "通联支付KA客户版新项目 - 基于用户、商家、订单角色的业务系统",
+    "name": "allinpay/yunshangtong",
+    "description": "通联支付云商通 - 基于用户、商家、订单角色的业务系统",
     "version": "1.0.0",
     "type": "library",
-    "keywords": ["allinpay", "payment", "sdk", "php", "china", "financial"],
-    "homepage": "https://github.com/your-username/allinpay-new-sdk",
+    "keywords": ["allinpay", "payment", "sdk", "php", "china", "financial", "yunshangtong"],
+    "homepage": "https://github.com/your-username/allinpay-yunshangtong",
     "license": "MIT",
     "authors": [
         {
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "AllinpayNew\\": "src/"
+            "AllinpayYunshangtong\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AllinpayNew\\Tests\\": "tests/"
+            "AllinpayYunshangtong\\Tests\\": "tests/"
         }
     },
     "config": {

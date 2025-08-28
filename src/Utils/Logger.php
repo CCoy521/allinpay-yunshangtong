@@ -1,8 +1,8 @@
 <?php
 
-namespace AllinpayNew\Utils;
+namespace AllinpayYunshangtong\Utils;
 
-use AllinpayNew\Config\LogConfig;
+use AllinpayYunshangtong\Config\LogConfig;
 
 /**
  * 日志记录器

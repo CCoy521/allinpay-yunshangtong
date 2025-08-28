@@ -6,8 +6,8 @@
 
 require_once 'vendor/autoload.php';
 
-use AllinpayNew\AllinpayClient;
-use AllinpayNew\Config\AppConfig;
+use AllinpayYunshangtong\AllinpayClient;
+use AllinpayYunshangtong\Config\AppConfig;
 
 // 1. 创建客户端（默认测试环境）
 $client = new AllinpayClient(AppConfig::ENV_TEST);

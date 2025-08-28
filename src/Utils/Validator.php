@@ -1,8 +1,8 @@
 <?php
 
-namespace AllinpayNew\Utils;
+namespace AllinpayYunshangtong\Utils;
 
-use AllinpayNew\Common\AllinpayException;
+use AllinpayYunshangtong\Common\AllinpayException;
 
 /**
  * 数据验证器

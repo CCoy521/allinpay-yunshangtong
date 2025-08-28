@@ -1,10 +1,10 @@
 <?php
 
-namespace AllinpayNew\Utils;
+namespace AllinpayYunshangtong\Utils;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use AllinpayNew\Config\AppConfig;
+use AllinpayYunshangtong\Config\AppConfig;
 
 /**
  * HTTP客户端工具类

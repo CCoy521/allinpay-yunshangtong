@@ -1,8 +1,8 @@
 <?php
 
-namespace AllinpayNew\Utils;
+namespace AllinpayYunshangtong\Utils;
 
-use AllinpayNew\Config\AppConfig;
+use AllinpayYunshangtong\Config\AppConfig;
 
 /**
  * 签名工具类

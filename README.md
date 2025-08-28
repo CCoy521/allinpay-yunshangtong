@@ -1,6 +1,6 @@
-# 通联支付KA客户版 (AllinpayNew)
+# 通联支付云商通 (Allinpay Yunshangtong)
 
-**简单、轻量的PHP Composer库** - 基于通联支付KA客户版接口规范，无需复杂的测试框架，直接通过RPC方式使用。
+**简单、轻量的PHP Composer库** - 基于通联支付云商通接口规范，无需复杂的测试框架，直接通过RPC方式使用。
 
 ## 项目特性
 
@@ -24,14 +24,14 @@
 ### 1. 通过 Composer 安装
 
 ```bash
-composer require allinpay/new-sdk
+composer require allinpay/yunshangtong
 ```
 
 ### 2. 手动安装
 
 ```bash
-git clone https://github.com/your-username/allinpay-new-sdk.git
-cd allinpay-new-sdk
+git clone https://github.com/your-username/allinpay-yunshangtong.git
+cd allinpay-yunshangtong
 composer install
 ```
 
@@ -44,7 +44,7 @@ composer install
 
 require_once 'vendor/autoload.php';
 
-use AllinpayNew\AllinpayClient;
+use AllinpayYunshangtong\AllinpayClient;
 
 // 创建客户端实例（默认测试环境）
 $client = new AllinpayClient();
@@ -145,8 +145,8 @@ $client->setEnvironment(AppConfig::ENV_PROD);
 ### 日志配置
 
 ```php
-use AllinpayNew\Config\LogConfig;
-use AllinpayNew\Utils\Logger;
+use AllinpayYunshangtong\Config\LogConfig;
+use AllinpayYunshangtong\Utils\Logger;
 
 $logConfig = new LogConfig([
     'level' => LogConfig::LEVEL_DEBUG,
@@ -165,7 +165,7 @@ $logger->info('应用启动成功');
 ### 内置验证器
 
 ```php
-use AllinpayNew\Utils\Validator;
+use AllinpayYunshangtong\Utils\Validator;
 
 // 验证会员信息
 $errors = Validator::validateMemberInfo($memberInfo);
@@ -436,8 +436,8 @@ A: 签名验证是自动进行的，也可以通过配置控制：
 
 ## 联系方式
 
-- 项目主页: [GitHub Repository]
-- 问题反馈: [Issues]
+- 项目主页: [GitHub Repository](https://github.com/your-username/allinpay-yunshangtong)
+- 问题反馈: [Issues](https://github.com/your-username/allinpay-yunshangtong/issues)
 - 邮箱: [your-email@example.com]
 
 ## 更新日志

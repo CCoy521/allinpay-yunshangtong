@@ -1,6 +1,6 @@
 <?php
 
-namespace AllinpayNew\Config;
+namespace AllinpayYunshangtong\Config;
 
 /**
  * 日志配置文件
